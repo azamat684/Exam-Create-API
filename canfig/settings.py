@@ -25,7 +25,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Tashqilari
     'rest_framework',
+    'rest_framework_swagger',
+    'drf_yasg',
     'django_seed',
     #My App
     'main.apps.MainConfig'
